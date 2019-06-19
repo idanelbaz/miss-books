@@ -191,7 +191,7 @@
 
 .add-book img {
     width: 100%;
-    height: 300px;
+    max-height: 300px;
 }
 
 .add-book input {
@@ -218,5 +218,36 @@
     }
     .add-book h1 {
         text-align: center;
+    }
+    .header img {
+        position: fixed;
+        top: 569px;
+        right: 0%;
+        width: 100%;
+        height: 128px;
+    }
+    .book-show-review h1 {
+        margin: 0 auto;
+        margin-top: 57px;
+        margin-bottom: 30px;
+        font-size: 35px;
+        text-align: center;
+        left: auto;
+        position: relative;
+    }
+    .book-show-review li {
+        list-style: none;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .book-show-review ul {
+        border: 1px solid blue;
+        border-radius: 15px;
+        width: 300px;
+        text-align: initial;
+        background-color: pink;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 80px;
     }
 }
